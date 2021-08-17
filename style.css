@@ -13,13 +13,17 @@ body {
 }
 
 .container {
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 20%;
   color: #ffffff;
+  display: grid;
+  place-items: center;
 }
 
-h1 {  
-  font-size: 5rem;
+#intro {  
+  font-size: 3rem;
   text-transform: capitalize;
   text-align: center;
 
@@ -27,21 +31,16 @@ h1 {
 
 /* BUTTON */
 .btn-centre {
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 5rem;
+  font-weight: 700;
   font-family: 'Rajdhani', sans-serif;  
-  border: none;
-  border-radius: 50px;
-  margin: 0 auto;
   text-align: center;
   text-transform: capitalize;
   display: block;
-  padding: 10px 65px;
-  
+  padding: 10px 65px;  
   margin-top: 20px;
 }
 
-.btn-centre:hover {
-  color: #ffffff;
-  background-color: #ccc;
+a:hover {
+  color: #ccc;  
 }

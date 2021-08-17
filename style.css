@@ -45,3 +45,11 @@ body {
 a:hover {
   color: #ccc; 
 }
+
+@media (min-width: 360px) {
+  .container {
+    display: grid;
+    place-items: center;
+  }
+
+}

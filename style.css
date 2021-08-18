@@ -46,7 +46,7 @@ a:hover {
   color: #ccc; 
 }
 
-@media (min-width: 360px) {
+@media (max-width: 360px) {
   .container {
     display: grid;
     place-items: center;

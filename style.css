@@ -26,7 +26,6 @@ body {
   font-size: 3rem;
   text-transform: capitalize;
   text-align: center;
-
 }
 
 /* BUTTON */
@@ -47,9 +46,16 @@ a:hover {
 }
 
 @media (max-width: 760px) {
-  .container {
-    display: grid;
-    place-items: center;
+
+  #intro {  
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .btn-centre {
+    font-size: 5rem;
+    font-weight: 700;
   }
 
 }

@@ -1,10 +1,15 @@
 const myBtn = document.getElementById('show-name');
 const myHeading = document.getElementById('intro');
+const myName = document.getElementById('repo-link');
 
 function showMyName() {
   myHeading.innerHTML = 'My name is';  
   myBtn.innerHTML = '<a href="https://hngi8-stage2-task3.netlify.app" target="_blank">Sanya Oluwadare</a>';
   console.log(`My name is ${myBtn.innerText}`);
+}
+
+function removeName() {
+  myName.classList.remove('nameLink');
 }
 
 myBtn.addEventListener('click', showMyName);

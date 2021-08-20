@@ -41,6 +41,14 @@ body {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ffffff;
+  overflow: hidden;
+}
+
 a:hover {
   color: #ccc; 
 }
